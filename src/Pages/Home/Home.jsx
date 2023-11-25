@@ -22,7 +22,7 @@ const HomePage = () => {
             exit="exit"
             transition={{ duration: 1.5 }}
         >
-            <section className='space-y- bg-gray-100 text-black pt-[5.5rem] py-10'>
+            <section className='bg-gray-100 text-black pt-[5.5rem] pb-4'>
                 {/* py-10 laptop:px-10 tablet:px-5 px-4 */}
                 <div className="bg-[#4F46E5] px-4 py-3 text-white">
                     <p className="text-center text-sm font-medium">
@@ -31,24 +31,24 @@ const HomePage = () => {
                 </div>
 
                 <div className="laptop:px-12 pt-4 tablet:px-5 px-4">
-                    <div className="flex gap-8">
-                        <div className='pb-10 flex-1'>
+                    <div className="laptop:flex gap-8">
+                        <div className='mb-10 flex-1'>
                             <Articles />
                         </div>
-                        <div className='pb-10 flex-1'>
+                        <div className='mb-10 flex-1'>
                             <Leadership />
                         </div>
-                        <div className='pb-10 flex-1'>
+                        <div className='mb-10 flex-1'>
                             <MostRead />
                         </div>
                     </div>
-                    <div className='pb-10'>
+                    <div className='border-y-2 py-4'>
                         <Latest />
                     </div>
-                    <div className='pb-10'>
+                    <div className='py-10 border-b-2'>
                         <Links />
                     </div>
-                    <div className='pb-10'>
+                    <div className='py-10 border-b-2'>
                         <Newsletter />
                     </div>
                 </div>
