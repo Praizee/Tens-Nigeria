@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { NavbarData } from "./NavbarData";
 import NavDropdown from "./NavDropdown";
@@ -8,10 +7,10 @@ const Navbar = () => {
 
     return (
         <div className="">
-            <div className="navbar bg-opacity-60 backdrop-blur-md z-50 fixed top-0 bg-transparent text-black border py-4 laptop:px-12 tablet:px-8 px-4">
+            <div className="navbar bg-gray-100 border-b z-50 fixed top-0 text-black py-4 laptop:px-12 tablet:px-8 px-4">
                 {/* border-b border-[#D1D5DB]/40 */}
                 <div className="navbar-start">
-                    <a className="text-4xl font-black">TEN NIGERIA</a>
+                    <a className="laptop:text-4xl text-2xl font-black">TEN NIGERIA</a>
                 </div>
                 <div className="navbar-end hidden laptop:flex">
                     {NavbarData.map((item, index) => (
@@ -19,7 +18,7 @@ const Navbar = () => {
                             className="px-3">
                             <li>
                                 <a
-                                    className="text-base">
+                                    className="text-base cursor-pointer">
                                     {item.title}
                                 </a>
                             </li>
