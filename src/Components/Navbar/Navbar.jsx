@@ -26,7 +26,7 @@ const Navbar = () => {
                     ))}
 
                     <div className="space-x-4 ml-10 hidden laptop:block">
-                        <button className="px-6 py-2 bg-transparent border rounded-lg border-[#FDE047] bg-transparent hover:bg-[#FDE047]">
+                        <button className="px-6 py-2 bg-transparent border rounded-lg border-[#FDE047] hover:bg-[#FDE047]">
                             Sign In
                         </button>
                         <button className="px-6 py-2 bg-[#FDE047] border rounded-lg hover:bg-transparent hover:border-[#FDE047] focus:border-none">
