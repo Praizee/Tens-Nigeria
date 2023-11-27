@@ -9,7 +9,7 @@ const Leadership = () => {
                     <button className='absolute bottom-0 right-0 bg-[#4F46E5] py-2 px-4 w-max rounded-xl rounded-bl-none'>
                         <FaArrowRight className='bg-[#4F46E5] w-8 h-8 text-white' />
                     </button>
-                    <img src={LeadershipImg} className='' alt='Leadership' />
+                    <img src={LeadershipImg} className='w-full' alt='Leadership' />
                 </div>
 
                 <p className=''>

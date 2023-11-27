@@ -30,15 +30,15 @@ const HomePage = () => {
                     </p>
                 </div>
 
-                <div className="laptop:px-12 pt-4 tablet:px-5 px-4">
-                    <div className="laptop:flex gap-8">
-                        <div className='mb-10 flex-1'>
+                <div className="laptop:px-12 pt-4 tablet:px-5 px-4 ">
+                    <div className="laptop:flex gap-8 space-y-10 laptop:space-y-0 pb-5">
+                        <div className='flex-1'>
                             <Articles />
                         </div>
-                        <div className='mb-10 flex-1'>
+                        <div className='flex-1'>
                             <Leadership />
                         </div>
-                        <div className='mb-10 flex-1'>
+                        <div className='flex-1'>
                             <MostRead />
                         </div>
                     </div>

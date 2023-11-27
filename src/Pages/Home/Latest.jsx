@@ -24,7 +24,7 @@ const Latest = () => {
                         {LatestContent.map((item, index) => (
                             <div key={index}
                                 className="flex gap-4">
-                                <img src={item.image} className="" alt="" />
+                                <img src={item.image} className="w-min h-min" alt="" />
                                 <a href=""
                                     className="link link-hover">
                                     {item.title}
