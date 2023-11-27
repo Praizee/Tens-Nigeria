@@ -1,6 +1,14 @@
 import { MostReadContent } from './content'
 
 const MostRead = () => {
+
+    // date
+    const currentDate = new Date();
+    const options = { month: 'long', day: 'numeric', year: 'numeric' };
+
+    const formattedDate = currentDate.toLocaleDateString('en-US', options);
+    // end of date
+
     return (
         <section>
             <div>
@@ -8,7 +16,7 @@ const MostRead = () => {
                     Most Read
                 </p>
                 <p>
-                    For November 21, 2023
+                    For {formattedDate}
                 </p>
 
                 {/* <div className='mt-6'>
